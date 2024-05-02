@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+}
+
+.trackItem {
+	color: #ffc107;
+	font-size: 20px;
+	border-bottom: 1px solid #6c757d;
+	cursor: pointer;
+	user-select: none;
+}
+
+.musicPlayer {
+	display: flex;
+	flex-direction: row;
+}
+
+#progressBar {
+	width: 500px;
+	height: 5px;
+	background-color: white;
+}
+
+#currentProgress {
+	width: 0px;
+	height: 100%;
+	background-color: #46f059;
+}
+
+.currentAndTotalTime {
+	font-size: 15px;
+	color: #fff;
+}
+
+.controls {
+	font-size: 30px;
+	color: #fff;
+	margin: 20px 40px;
+	cursor: pointer;
+}
+
+.previousButton {
+	background-color: rgba(0, 0, 0, 0);
+	fill: #fff;
+	border: none;
+	opacity: 0.7;
+	margin: 5px 15px 5px 5px;
+}
+
+.previousButton:hover {
+	opacity: 1;
+}
+
+.nextButton {
+	background-color: rgba(0, 0, 0, 0);
+	fill: #fff;
+	border: none;
+	opacity: 0.7;
+	margin: 5px 15px 5px 5px;
+}
+
+.nextButton:hover {
+	opacity: 1;
+}
+.pauseButton{
+	background-color: rgba(0, 0, 0, 0);
+	fill: #fff;
+	border: none;
+	opacity: 0.7;
+	margin: 5px 15px 5px 5px;
+	display:none;
+}
+
+.playButton {
+	background-color: rgba(0, 0, 0, 0);
+	fill: #fff;
+	border: none;
+	opacity: 0.7;
+	margin: 5px 15px 5px 5px;
+}
+
+.playButton:hover {
+	opacity: 1;
+}
+.heartButton {
+	background: transparent;
+	border: none;
+	font-size: 16px;
+	outline: none;
+	color: white;
+}
+.heartButton .fas{
+	color:red;
+}

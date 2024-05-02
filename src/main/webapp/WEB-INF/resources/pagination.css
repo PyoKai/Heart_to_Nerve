@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+.pagination-box {
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: right;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgb((255, 0, 0), 0, 0);
+    background-color: #a9def9;
+    border: 1px solid #0a0908;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
